@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Generator Skill</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+</html>
+<body>
+    <div class="kotak mesin">
+    <h1>generator skill unik</h1>
+<p>
+    masukan nama temanmu untuk melihat Skill mereka!
+</p>
+
+<input
+type="text"
+id="namainput"
+placeholder="ketik namamu...">
+
+<button onclick="cekskill()">
+    cek sekarang
+</button>
+
+<h2 id="hasil skill">
+    skill temanmu terdeteksi
+</h2>
+</div>
+<script>
+    function cekskill() {
+        let nama = dokumen.getElementByld("namainput").value;
+    }
+    let daftarskill = [
+        "ayam",
+        "mangga",
+        "domba",
+    ];
+    let acak = Math.floor(Math.random()*daftarskill.lengh);
+    let skillPilihan = daftarskill[acak];
+
+    document.getElementById("hasilSkill").innerText = nama + skillPilihan;
+</script>
+</body>
