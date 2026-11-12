@@ -1,0 +1,36 @@
+body {
+    background-color: red;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.kotak-meesin {
+    background-color: red;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: yellow;
+    color: yellow;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#hasilskill {
+    color: yellow;
+    margin-top: 20px;
+}
